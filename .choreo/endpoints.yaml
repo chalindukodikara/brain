@@ -1,41 +1,41 @@
 version: 0.1
 
 endpoints:
-  - name: "Index"
+  - name: Index
     port: 8080
     type: REST
     networkVisibility: Public
     context: /
 
-  - name: "Register"
+  - name: Register
     port: 8080
     type: REST
     networkVisibility: Public
     context: /register
     schemaFilePath: openapi.yaml
 
-  - name: "Login"
+  - name: Login
     port: 8080
     type: REST
     networkVisibility: Public
     context: /login
     schemaFilePath: openapi.yaml
 
-  - name: "Prediction1"
+  - name: Prediction1
     port: 8080
     type: REST
     networkVisibility: Public
     context: /prediction1
     schemaFilePath: openapi.yaml
 
-  - name: "Prediction2"
+  - name: Prediction2
     port: 8080
     type: REST
     networkVisibility: Public
     context: /prediction2
     schemaFilePath: openapi.yaml
 
-  - name: "Load Image"
+  - name: Load Image
     port: 8080
     type: REST
     networkVisibility: Public
